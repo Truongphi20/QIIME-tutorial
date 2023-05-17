@@ -1,0 +1,77 @@
+Usage: qiime longitudinal linear-mixed-effects [OPTIONS]
+
+  Linear mixed effects models evaluate the contribution of exogenous
+  covariates "group_columns" and "random_effects" to a single dependent
+  variable, "metric". Perform LME and plot line plots of each group column. A
+  feature table artifact is required input, though whether "metric" is derived
+  from the feature table or metadata is optional.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[RelativeFrequency]
+                          Feature table containing metric.          [optional]
+Parameters:
+  --m-metadata-file METADATA...
+    (multiple arguments   Sample metadata file containing
+     will be merged)      individual-id-column.                     [required]
+  --p-state-column TEXT   Metadata column containing state (time) variable
+                          information.                              [required]
+  --p-individual-id-column TEXT
+                          Metadata column containing IDs for individual
+                          subjects.                                 [required]
+  --p-metric TEXT         Dependent variable column name. Must be a column
+                          name located in the metadata or feature table files.
+                                                                    [optional]
+  --p-group-columns TEXT  Comma-separated list (without spaces) of metadata
+                          columns to use as independent covariates used to
+                          determine mean structure of "metric".     [optional]
+  --p-random-effects TEXT Comma-separated list (without spaces) of metadata
+                          columns to use as independent covariates used to
+                          determine the variance and covariance structure
+                          (random effects) of "metric". To add a random slope,
+                          the same value passed to "state-column" should be
+                          passed here. A random intercept for each individual
+                          is set by default and does not need to be passed
+                          here.                                     [optional]
+  --p-palette TEXT Choices('Set1', 'Set2', 'Set3', 'Pastel1', 'Pastel2',
+    'Paired', 'Accent', 'Dark2', 'tab10', 'tab20', 'tab20b', 'tab20c',
+    'viridis', 'plasma', 'inferno', 'magma', 'terrain', 'rainbow', 'cividis')
+                          Color palette to use for generating boxplots.
+                                                             [default: 'Set1']
+  --p-lowess / --p-no-lowess
+                          Estimate locally weighted scatterplot smoothing.
+                          Note that this will eliminate confidence interval
+                          plotting.                           [default: False]
+  --p-ci NUMBER           Size of the confidence interval for the regression
+    Range(0, 100)         estimate.                              [default: 95]
+  --p-formula TEXT        R-style formula to use for model specification. A
+                          formula must be used if the "metric" parameter is
+                          None. Note that the metric and group columns
+                          specified in the formula will override metric and
+                          group columns that are passed separately as
+                          parameters to this method. Formulae will be in the
+                          format "a ~ b + c", where "a" is the metric
+                          (dependent variable) and "b" and "c" are independent
+                          covariates. Use "+" to add a variable; "+ a:b" to
+                          add an interaction between variables a and b; "*" to
+                          include a variable and all interactions; and "-" to
+                          subtract a particular term (e.g., an interaction
+                          term). See
+                          https://patsy.readthedocs.io/en/latest/formulas.html
+                          for full documentation of valid formula operators.
+                          Always enclose formulae in quotes to avoid
+                          unpleasant surprises.                     [optional]
+Outputs:
+  --o-visualization VISUALIZATION
+                                                                    [required]
+Miscellaneous:
+  --output-dir PATH       Output unspecified results to a directory
+  --verbose / --quiet     Display verbose output to stdout and/or stderr
+                          during execution of this action. Or silence output
+                          if execution is successful (silence is golden).
+  --example-data PATH     Write example data and exit.
+  --citations             Show citations and exit.
+  --help                  Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--o-visualization': Directory 'linear' does not
+  exist, cannot save 'linear-mixed-effects.qzv' into it.

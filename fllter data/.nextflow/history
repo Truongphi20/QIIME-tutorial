@@ -1,0 +1,4 @@
+2023-05-05 10:08:34	24.3s	determined_carson	OK	0c95ebc2bec7ad8a76d8d2d64ec307ad	4dc717fc-e09f-45a0-a81e-54efa2e05842	nextflow run filter.nf
+2023-05-05 10:17:08	27.1s	sick_visvesvaraya	OK	a51e0f77b6c67901f10bc5ee179e8d04	c53d6f56-fbab-4836-9bad-41e7164ec643	nextflow run filter.nf
+2023-05-05 10:26:12	10.2s	voluminous_avogadro	OK	3bc69d9e6b6f7def957f771df51765df	c53d6f56-fbab-4836-9bad-41e7164ec643	nextflow run filter.nf -resume
+2023-05-05 10:26:49	21.8s	romantic_crick	OK	8d579a4a941f7feaf0171987f4ea65e5	c53d6f56-fbab-4836-9bad-41e7164ec643	nextflow run filter.nf -resume

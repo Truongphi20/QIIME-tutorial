@@ -1,0 +1,70 @@
+May-02 12:50:19.908 [main] DEBUG nextflow.cli.Launcher - $> nextflow run longitudinal.nf -resume
+May-02 12:50:20.025 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+May-02 12:50:20.051 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+May-02 12:50:20.069 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-02 12:50:20.070 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-02 12:50:20.076 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-02 12:50:20.095 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-02 12:50:20.184 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-02 12:50:20.207 [main] INFO  nextflow.cli.CmdRun - Launching `longitudinal.nf` [stoic_goodall] DSL2 - revision: e20accc511
+May-02 12:50:20.208 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-02 12:50:20.208 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-02 12:50:20.221 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-02 12:50:20.231 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@375b5b7f] - activable => nextflow.secret.LocalSecretsProvider@375b5b7f
+May-02 12:50:20.327 [main] DEBUG nextflow.Session - Session UUID: 5827f4e3-d12d-4912-a037-380f4d51ac2f
+May-02 12:50:20.327 [main] DEBUG nextflow.Session - Run name: stoic_goodall
+May-02 12:50:20.327 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-02 12:50:20.343 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-02 12:50:20.385 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 06:20 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 17.0.3-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 6146@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (2.9 GB) - Swap: 2 GB (2 GB)
+May-02 12:50:20.431 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work [ext2/ext3]
+May-02 12:50:20.431 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/Longitudinal/bin
+May-02 12:50:20.444 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-02 12:50:20.457 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-02 12:50:20.485 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-02 12:50:20.499 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-02 12:50:20.639 [main] DEBUG nextflow.Session - Session start
+May-02 12:50:21.720 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-02 12:50:21.839 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:50:21.839 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:50:21.848 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-02 12:50:21.854 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-02 12:50:21.997 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:50:21.997 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:50:22.002 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:50:22.002 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:50:22.009 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:50:22.009 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:50:22.015 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:50:22.015 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:50:22.019 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: DOWNDATA, PAIRWISE_DIFF, PAIRWISE_DIST, LINEAR_MIX, VOLATILITY
+May-02 12:50:22.020 [main] DEBUG nextflow.Session - Igniting dataflow network (5)
+May-02 12:50:22.020 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNDATA
+May-02 12:50:22.022 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIFF
+May-02 12:50:22.022 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIST
+May-02 12:50:22.023 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > LINEAR_MIX
+May-02 12:50:22.023 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > VOLATILITY
+May-02 12:50:22.024 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-02 12:50:22.024 [main] DEBUG nextflow.Session - Session await
+May-02 12:50:22.136 [Actor Thread 7] DEBUG nextflow.util.CacheHelper - Unable to get file attributes file: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles -- Cause: java.nio.file.NoSuchFileException: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles
+May-02 12:50:22.246 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [6b/f54560] Cached process > DOWNDATA
+May-02 12:50:22.272 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [7d/930098] Cached process > LINEAR_MIX
+May-02 12:50:22.273 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [03/1208de] Cached process > PAIRWISE_DIFF
+May-02 12:50:22.284 [Actor Thread 14] INFO  nextflow.processor.TaskProcessor - [d4/5ddfc7] Cached process > PAIRWISE_DIST
+May-02 12:50:22.299 [Actor Thread 4] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-02 12:50:22.343 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-02 12:50:22.346 [Task submitter] INFO  nextflow.Session - [fa/62b05b] Submitted process > VOLATILITY
+May-02 12:50:29.322 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: VOLATILITY; status: COMPLETED; exit: 0; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/fa/62b05b10181489c43b5dd92b0b6c9b]
+May-02 12:50:29.326 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-02 12:50:29.330 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-02 12:50:29.335 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+May-02 12:50:29.345 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=4; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=7s; failedDuration=0ms; cachedDuration=1m 1s;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+May-02 12:50:29.517 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-02 12:50:29.527 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+May-02 12:50:29.528 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

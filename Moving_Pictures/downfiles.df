@@ -1,0 +1,9 @@
+##	Sample_metadata
+https://data.qiime2.org/2023.2/tutorials/moving-pictures/sample_metadata.tsv
+
+##	Importing_data
+https://data.qiime2.org/2023.2/tutorials/moving-pictures/emp-single-end-sequences/barcodes.fastq.gz
+https://data.qiime2.org/2023.2/tutorials/moving-pictures/emp-single-end-sequences/sequences.fastq.gz
+
+##	Taxonomic_analysis
+https://data.qiime2.org/2023.2/common/gg-13-8-99-515-806-nb-classifier.qza

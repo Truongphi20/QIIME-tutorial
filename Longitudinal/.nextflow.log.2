@@ -1,0 +1,136 @@
+May-02 12:45:03.146 [main] DEBUG nextflow.cli.Launcher - $> nextflow run longitudinal.nf -resume
+May-02 12:45:03.264 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+May-02 12:45:03.290 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+May-02 12:45:03.307 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-02 12:45:03.309 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-02 12:45:03.314 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-02 12:45:03.327 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-02 12:45:03.402 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-02 12:45:03.427 [main] INFO  nextflow.cli.CmdRun - Launching `longitudinal.nf` [magical_swartz] DSL2 - revision: cecd2289a5
+May-02 12:45:03.428 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-02 12:45:03.428 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-02 12:45:03.440 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-02 12:45:03.449 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@bcb09a6] - activable => nextflow.secret.LocalSecretsProvider@bcb09a6
+May-02 12:45:03.538 [main] DEBUG nextflow.Session - Session UUID: 5827f4e3-d12d-4912-a037-380f4d51ac2f
+May-02 12:45:03.538 [main] DEBUG nextflow.Session - Run name: magical_swartz
+May-02 12:45:03.538 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-02 12:45:03.552 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-02 12:45:03.582 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 06:20 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 17.0.3-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 5797@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (2.9 GB) - Swap: 2 GB (2 GB)
+May-02 12:45:03.617 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work [ext2/ext3]
+May-02 12:45:03.617 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/Longitudinal/bin
+May-02 12:45:03.630 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-02 12:45:03.645 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-02 12:45:03.676 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-02 12:45:03.690 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-02 12:45:03.835 [main] DEBUG nextflow.Session - Session start
+May-02 12:45:04.710 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-02 12:45:04.863 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:45:04.863 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:45:04.874 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-02 12:45:04.882 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-02 12:45:05.048 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:45:05.048 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:45:05.056 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:45:05.056 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:45:05.065 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:45:05.065 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:45:05.072 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: DOWNDATA, PAIRWISE_DIFF, PAIRWISE_DIST, LINEAR_MIX
+May-02 12:45:05.073 [main] DEBUG nextflow.Session - Igniting dataflow network (4)
+May-02 12:45:05.074 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNDATA
+May-02 12:45:05.076 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIFF
+May-02 12:45:05.076 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIST
+May-02 12:45:05.077 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > LINEAR_MIX
+May-02 12:45:05.077 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-02 12:45:05.077 [main] DEBUG nextflow.Session - Session await
+May-02 12:45:05.183 [Actor Thread 6] DEBUG nextflow.util.CacheHelper - Unable to get file attributes file: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles -- Cause: java.nio.file.NoSuchFileException: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles
+May-02 12:45:05.289 [Actor Thread 6] INFO  nextflow.processor.TaskProcessor - [6b/f54560] Cached process > DOWNDATA
+May-02 12:45:05.317 [Actor Thread 4] INFO  nextflow.processor.TaskProcessor - [03/1208de] Cached process > PAIRWISE_DIFF
+May-02 12:45:05.325 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [d4/5ddfc7] Cached process > PAIRWISE_DIST
+May-02 12:45:05.347 [Actor Thread 1] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-02 12:45:05.405 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-02 12:45:05.409 [Task submitter] INFO  nextflow.Session - [7d/7808e0] Submitted process > LINEAR_MIX
+May-02 12:45:12.322 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: LINEAR_MIX; status: COMPLETED; exit: 1; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/7d/7808e0cd7232c0f8e1837cb1fb31aa]
+May-02 12:45:12.346 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'LINEAR_MIX'
+
+Caused by:
+  Process `LINEAR_MIX` terminated with an error exit status (1)
+
+Command executed:
+
+  qiime longitudinal linear-mixed-effects 	  --m-metadata-file download/Sample_metadata/ecam-sample-metadata.tsv 	  --m-metadata-file download/Importing_data/shannon.qza 	  --p-metric shannon 	  --p-group-columns delivery,diet,sex 	  --p-state-column month 	  --p-individual-id-column studyid 	  --o-visualization linear/linear-mixed-effects.qzv
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+                            columns to use as independent covariates used to
+                            determine the variance and covariance structure
+                            (random effects) of "metric". To add a random slope,
+                            the same value passed to "state-column" should be
+                            passed here. A random intercept for each individual
+                            is set by default and does not need to be passed
+                            here.                                     [optional]
+    --p-palette TEXT Choices('Set1', 'Set2', 'Set3', 'Pastel1', 'Pastel2',
+      'Paired', 'Accent', 'Dark2', 'tab10', 'tab20', 'tab20b', 'tab20c',
+      'viridis', 'plasma', 'inferno', 'magma', 'terrain', 'rainbow', 'cividis')
+                            Color palette to use for generating boxplots.
+                                                               [default: 'Set1']
+    --p-lowess / --p-no-lowess
+                            Estimate locally weighted scatterplot smoothing.
+                            Note that this will eliminate confidence interval
+                            plotting.                           [default: False]
+    --p-ci NUMBER           Size of the confidence interval for the regression
+      Range(0, 100)         estimate.                              [default: 95]
+    --p-formula TEXT        R-style formula to use for model specification. A
+                            formula must be used if the "metric" parameter is
+                            None. Note that the metric and group columns
+                            specified in the formula will override metric and
+                            group columns that are passed separately as
+                            parameters to this method. Formulae will be in the
+                            format "a ~ b + c", where "a" is the metric
+                            (dependent variable) and "b" and "c" are independent
+                            covariates. Use "+" to add a variable; "+ a:b" to
+                            add an interaction between variables a and b; "*" to
+                            include a variable and all interactions; and "-" to
+                            subtract a particular term (e.g., an interaction
+                            term). See
+                            https://patsy.readthedocs.io/en/latest/formulas.html
+                            for full documentation of valid formula operators.
+                            Always enclose formulae in quotes to avoid
+                            unpleasant surprises.                     [optional]
+  Outputs:
+    --o-visualization VISUALIZATION
+                                                                      [required]
+  Miscellaneous:
+    --output-dir PATH       Output unspecified results to a directory
+    --verbose / --quiet     Display verbose output to stdout and/or stderr
+                            during execution of this action. Or silence output
+                            if execution is successful (silence is golden).
+    --example-data PATH     Write example data and exit.
+    --citations             Show citations and exit.
+    --help                  Show this message and exit.
+  
+                      There was a problem with the command:                     
+   (1/1) Invalid value for '--o-visualization': Directory 'linear' does not
+    exist, cannot save 'linear-mixed-effects.qzv' into it.
+
+Work dir:
+  /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/7d/7808e0cd7232c0f8e1837cb1fb31aa
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+May-02 12:45:12.353 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-02 12:45:12.357 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `LINEAR_MIX` terminated with an error exit status (1)
+May-02 12:45:12.384 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-02 12:45:12.397 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=3; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=6.8s; cachedDuration=51s;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+May-02 12:45:12.571 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-02 12:45:12.582 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

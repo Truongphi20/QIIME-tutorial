@@ -1,0 +1,9 @@
+2023-05-02 12:20:36	37.5s	hungry_kowalevski	OK	dc3a34dd9a17ee5e1d689202a2c04765	a6901570-fc42-4d15-b2c7-60c5c27b34be	nextflow run longitudinal.nf
+2023-05-02 12:32:01	46.8s	confident_lichterman	ERR	549b862675bd98fffa5718ca8e15d22a	a6901570-fc42-4d15-b2c7-60c5c27b34be	nextflow run longitudinal.nf -resume
+2023-05-02 12:33:39	43s	determined_fermi	OK	549b862675bd98fffa5718ca8e15d22a	5827f4e3-d12d-4912-a037-380f4d51ac2f	nextflow run longitudinal.nf
+2023-05-02 12:39:51	11.3s	loving_lalande	ERR	d91e194d7cabfa45096a2c0ca989b56f	5827f4e3-d12d-4912-a037-380f4d51ac2f	nextflow run longitudinal.nf -resume
+2023-05-02 12:40:24	11s	evil_church	ERR	1078dc6516db7a4d30bf75a7e1a4c9e9	5827f4e3-d12d-4912-a037-380f4d51ac2f	nextflow run longitudinal.nf -resume
+2023-05-02 12:41:32	12s	hopeful_wiles	OK	b8114966314c0c16ca8f31ab8e6eb3ac	5827f4e3-d12d-4912-a037-380f4d51ac2f	nextflow run longitudinal.nf -resume
+2023-05-02 12:45:03	9.6s	magical_swartz	ERR	cecd2289a5b28541db34a9b7ca3ea295	5827f4e3-d12d-4912-a037-380f4d51ac2f	nextflow run longitudinal.nf -resume
+2023-05-02 12:45:32	11.7s	romantic_bernard	OK	8f1b1d5cee76058506a11b7876713382	5827f4e3-d12d-4912-a037-380f4d51ac2f	nextflow run longitudinal.nf -resume
+2023-05-02 12:50:20	9.5s	stoic_goodall	OK	e20accc51187122d2133921ff1c3f003	5827f4e3-d12d-4912-a037-380f4d51ac2f	nextflow run longitudinal.nf -resume

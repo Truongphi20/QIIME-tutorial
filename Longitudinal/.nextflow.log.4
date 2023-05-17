@@ -1,0 +1,134 @@
+May-02 12:40:24.414 [main] DEBUG nextflow.cli.Launcher - $> nextflow run longitudinal.nf -resume
+May-02 12:40:24.534 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+May-02 12:40:24.562 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+May-02 12:40:24.580 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-02 12:40:24.581 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-02 12:40:24.584 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-02 12:40:24.601 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-02 12:40:24.695 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-02 12:40:24.719 [main] INFO  nextflow.cli.CmdRun - Launching `longitudinal.nf` [evil_church] DSL2 - revision: 1078dc6516
+May-02 12:40:24.720 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-02 12:40:24.720 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-02 12:40:24.734 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-02 12:40:24.744 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@272a179c] - activable => nextflow.secret.LocalSecretsProvider@272a179c
+May-02 12:40:24.833 [main] DEBUG nextflow.Session - Session UUID: 5827f4e3-d12d-4912-a037-380f4d51ac2f
+May-02 12:40:24.833 [main] DEBUG nextflow.Session - Run name: evil_church
+May-02 12:40:24.833 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-02 12:40:24.848 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-02 12:40:24.880 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 06:20 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 17.0.3-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 5362@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (3 GB) - Swap: 2 GB (2 GB)
+May-02 12:40:24.913 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work [ext2/ext3]
+May-02 12:40:24.913 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/Longitudinal/bin
+May-02 12:40:24.924 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-02 12:40:24.936 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-02 12:40:24.964 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-02 12:40:24.978 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-02 12:40:25.118 [main] DEBUG nextflow.Session - Session start
+May-02 12:40:25.968 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-02 12:40:26.095 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:40:26.096 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:40:26.104 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-02 12:40:26.111 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-02 12:40:26.247 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:40:26.248 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:40:26.253 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:40:26.253 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:40:26.258 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: DOWNDATA, PAIRWISE_DIFF, PAIRWISE_DIST
+May-02 12:40:26.259 [main] DEBUG nextflow.Session - Igniting dataflow network (3)
+May-02 12:40:26.260 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNDATA
+May-02 12:40:26.261 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIFF
+May-02 12:40:26.262 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIST
+May-02 12:40:26.262 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-02 12:40:26.262 [main] DEBUG nextflow.Session - Session await
+May-02 12:40:26.363 [Actor Thread 5] DEBUG nextflow.util.CacheHelper - Unable to get file attributes file: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles -- Cause: java.nio.file.NoSuchFileException: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles
+May-02 12:40:26.487 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [6b/f54560] Cached process > DOWNDATA
+May-02 12:40:26.585 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-02 12:40:26.590 [Task submitter] INFO  nextflow.Session - [0d/cffe22] Submitted process > PAIRWISE_DIFF
+May-02 12:40:26.612 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-02 12:40:26.612 [Task submitter] INFO  nextflow.Session - [30/6c54b0] Submitted process > PAIRWISE_DIST
+May-02 12:40:34.684 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: PAIRWISE_DIFF; status: COMPLETED; exit: 1; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/0d/cffe225e6edce036d3d2430427305c]
+May-02 12:40:34.725 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'PAIRWISE_DIFF'
+
+Caused by:
+  Process `PAIRWISE_DIFF` terminated with an error exit status (1)
+
+Command executed:
+
+  mkdir pair_diff
+  qiime longitudinal pairwise-differences 	  --m-metadata-file download/Sample_metadata/ecam-sample-metadata.tsv 	  --m-metadata-file download/Importing_data/shannon.qza 	  --p-metric shannon 	  --p-group-column delivery 	  --p-state-column month 	  --p-state-1 0 	  --p-state-2 12 	  --p-individual-id-column studyid 	  --p-replicate-handling random 	  --o-visualization diff/pairwise-differences.qzv
+
+Command exit status:
+  1
+
+Command output:
+  (empty)
+
+Command error:
+    --m-metadata-file METADATA...
+      (multiple            Sample metadata file containing
+       arguments will be   individual-id-column.
+       merged)                                                        [required]
+    --p-metric TEXT        Numerical metadata or artifact column to test.
+                                                                      [required]
+    --p-state-column TEXT  Metadata column containing state (e.g., Time) across
+                           which samples are paired.                  [required]
+    --p-state-1 TEXT       Baseline state column value.               [required]
+    --p-state-2 TEXT       State column value to pair with baseline.  [required]
+    --p-individual-id-column TEXT
+                           Metadata column containing subject IDs to use for
+                           pairing samples. WARNING: if replicates exist for an
+                           individual ID at either state-1 or state-2, that
+                           subject will be dropped and reported in standard
+                           output by default. Set replicate_handling="random" to
+                           instead randomly select one member.        [required]
+    --p-group-column TEXT  Metadata column on which to separate groups for
+                           comparison                                 [optional]
+    --p-parametric / --p-no-parametric
+                           Perform parametric (ANOVA and t-tests) or
+                           non-parametric (Kruskal-Wallis, Wilcoxon, and
+                           Mann-Whitney U tests) statistical tests.
+                                                                [default: False]
+    --p-palette TEXT Choices('Set1', 'Set2', 'Set3', 'Pastel1', 'Pastel2',
+      'Paired', 'Accent', 'Dark2', 'tab10', 'tab20', 'tab20b', 'tab20c',
+      'viridis', 'plasma', 'inferno', 'magma', 'terrain', 'rainbow', 'cividis')
+                           Color palette to use for generating boxplots.
+                                                               [default: 'Set1']
+    --p-replicate-handling TEXT Choices('error', 'random', 'drop')
+                           Choose how replicate samples are handled. If
+                           replicates are detected, "error" causes method to
+                           fail; "drop" will discard all replicated samples;
+                           "random" chooses one representative at random from
+                           among replicates.                  [default: 'error']
+  Outputs:
+    --o-visualization VISUALIZATION
+                                                                      [required]
+  Miscellaneous:
+    --output-dir PATH      Output unspecified results to a directory
+    --verbose / --quiet    Display verbose output to stdout and/or stderr
+                           during execution of this action. Or silence output if
+                           execution is successful (silence is golden).
+    --example-data PATH    Write example data and exit.
+    --citations            Show citations and exit.
+    --help                 Show this message and exit.
+  
+                      There was a problem with the command:                     
+   (1/1) Invalid value for '--o-visualization': Directory 'diff' does not exist,
+    cannot save 'pairwise-differences.qzv' into it.
+
+Work dir:
+  /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/0d/cffe225e6edce036d3d2430427305c
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+May-02 12:40:34.738 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `PAIRWISE_DIFF` terminated with an error exit status (1)
+May-02 12:40:34.778 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-02 12:40:34.779 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-02 12:40:34.787 [main] WARN  n.processor.TaskPollingMonitor - Killing running tasks (1)
+May-02 12:40:34.809 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=1; ignoredCount=0; cachedCount=1; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=1; succeedDuration=0ms; failedDuration=8.1s; cachedDuration=31.9s;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+May-02 12:40:34.959 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-02 12:40:34.976 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

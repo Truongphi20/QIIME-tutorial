@@ -1,0 +1,67 @@
+Usage: qiime longitudinal pairwise-differences [OPTIONS]
+
+  Performs paired difference testing between samples from each subject. Sample
+  pairs may represent a typical intervention study (e.g., samples collected
+  pre- and post-treatment), paired samples from two different timepoints
+  (e.g., in a longitudinal study design), or identical samples receiving
+  different treatments. This action tests whether the change in a numeric
+  metadata value "metric" differs from zero and differs between groups (e.g.,
+  groups of subjects receiving different treatments), and produces boxplots of
+  paired difference distributions for each group. Note that "metric" can be
+  derived from a feature table or metadata.
+
+Inputs:
+  --i-table ARTIFACT FeatureTable[RelativeFrequency]
+                         Feature table to optionally use for paired
+                         comparisons.                               [optional]
+Parameters:
+  --m-metadata-file METADATA...
+    (multiple            Sample metadata file containing
+     arguments will be   individual-id-column.
+     merged)                                                        [required]
+  --p-metric TEXT        Numerical metadata or artifact column to test.
+                                                                    [required]
+  --p-state-column TEXT  Metadata column containing state (e.g., Time) across
+                         which samples are paired.                  [required]
+  --p-state-1 TEXT       Baseline state column value.               [required]
+  --p-state-2 TEXT       State column value to pair with baseline.  [required]
+  --p-individual-id-column TEXT
+                         Metadata column containing subject IDs to use for
+                         pairing samples. WARNING: if replicates exist for an
+                         individual ID at either state-1 or state-2, that
+                         subject will be dropped and reported in standard
+                         output by default. Set replicate_handling="random" to
+                         instead randomly select one member.        [required]
+  --p-group-column TEXT  Metadata column on which to separate groups for
+                         comparison                                 [optional]
+  --p-parametric / --p-no-parametric
+                         Perform parametric (ANOVA and t-tests) or
+                         non-parametric (Kruskal-Wallis, Wilcoxon, and
+                         Mann-Whitney U tests) statistical tests.
+                                                              [default: False]
+  --p-palette TEXT Choices('Set1', 'Set2', 'Set3', 'Pastel1', 'Pastel2',
+    'Paired', 'Accent', 'Dark2', 'tab10', 'tab20', 'tab20b', 'tab20c',
+    'viridis', 'plasma', 'inferno', 'magma', 'terrain', 'rainbow', 'cividis')
+                         Color palette to use for generating boxplots.
+                                                             [default: 'Set1']
+  --p-replicate-handling TEXT Choices('error', 'random', 'drop')
+                         Choose how replicate samples are handled. If
+                         replicates are detected, "error" causes method to
+                         fail; "drop" will discard all replicated samples;
+                         "random" chooses one representative at random from
+                         among replicates.                  [default: 'error']
+Outputs:
+  --o-visualization VISUALIZATION
+                                                                    [required]
+Miscellaneous:
+  --output-dir PATH      Output unspecified results to a directory
+  --verbose / --quiet    Display verbose output to stdout and/or stderr
+                         during execution of this action. Or silence output if
+                         execution is successful (silence is golden).
+  --example-data PATH    Write example data and exit.
+  --citations            Show citations and exit.
+  --help                 Show this message and exit.
+
+                    There was a problem with the command:                     
+ (1/1) Invalid value for '--o-visualization': Directory 'diff' does not exist,
+  cannot save 'pairwise-differences.qzv' into it.

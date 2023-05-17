@@ -1,0 +1,52 @@
+May-02 12:20:35.683 [main] DEBUG nextflow.cli.Launcher - $> nextflow run longitudinal.nf
+May-02 12:20:35.747 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.1
+May-02 12:20:35.778 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.2
+May-02 12:20:35.794 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-02 12:20:35.795 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-02 12:20:35.799 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-02 12:20:35.811 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-02 12:20:35.905 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-02 12:20:35.935 [main] INFO  nextflow.cli.CmdRun - Launching `longitudinal.nf` [hungry_kowalevski] DSL2 - revision: dc3a34dd9a
+May-02 12:20:35.936 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-02 12:20:35.937 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-02 12:20:35.952 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-02 12:20:35.963 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5c089b2f] - activable => nextflow.secret.LocalSecretsProvider@5c089b2f
+May-02 12:20:36.055 [main] DEBUG nextflow.Session - Session UUID: a6901570-fc42-4d15-b2c7-60c5c27b34be
+May-02 12:20:36.055 [main] DEBUG nextflow.Session - Run name: hungry_kowalevski
+May-02 12:20:36.058 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-02 12:20:36.096 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-02 12:20:36.144 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.1 build 5866
+  Created: 15-04-2023 06:51 UTC (13:51 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 18+36-2087
+  Encoding: UTF-8 (UTF-8)
+  Process: 4120@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (3.5 GB) - Swap: 2 GB (2 GB)
+May-02 12:20:36.186 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work [ext2/ext3]
+May-02 12:20:36.187 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/Longitudinal/bin
+May-02 12:20:36.201 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-02 12:20:36.214 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-02 12:20:36.240 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-02 12:20:36.257 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-02 12:20:36.351 [main] DEBUG nextflow.Session - Session start
+May-02 12:20:37.106 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-02 12:20:37.241 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:20:37.241 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:20:37.249 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-02 12:20:37.261 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-02 12:20:37.412 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: DOWNDATA
+May-02 12:20:37.413 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+May-02 12:20:37.413 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNDATA
+May-02 12:20:37.415 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-02 12:20:37.415 [main] DEBUG nextflow.Session - Session await
+May-02 12:20:37.559 [Actor Thread 3] DEBUG nextflow.util.CacheHelper - Unable to get file attributes file: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles -- Cause: java.nio.file.NoSuchFileException: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles
+May-02 12:20:37.671 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-02 12:20:37.674 [Task submitter] INFO  nextflow.Session - [fe/fe00bf] Submitted process > DOWNDATA
+May-02 12:21:13.342 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: DOWNDATA; status: COMPLETED; exit: 0; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/fe/fe00bfa13fb00199d2b9dfb464615c]
+May-02 12:21:13.362 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-02 12:21:13.363 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-02 12:21:13.374 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=35.6s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+May-02 12:21:13.449 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-02 12:21:13.466 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+May-02 12:21:13.467 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

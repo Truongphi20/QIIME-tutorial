@@ -1,0 +1,43 @@
+flowchart TD
+    p0(( ))
+    p1[DOWNDATA]
+    p2[ARTIFACTS]
+    p3[DEMULTIPLEX]
+    p4[QC_DADA]
+    p5[QC_DEBLUR]
+    p6(( ))
+    p7[SUMMARY]
+    p8(( ))
+    p9[PHYLOGENETIC]
+    p10[DIVERSITY]
+    p11(( ))
+    p12[ALPHAL_RAREFACTION]
+    p13(( ))
+    p14[TAXONOMIC]
+    p15[ANCOM]
+    p16(( ))
+    p0 -->|downfile| p1
+    p1 --> p2
+    p2 --> p3
+    p1 -->|down_files| p3
+    p3 --> p4
+    p4 --> p7
+    p3 -->|demultiplex| p5
+    p5 --> p6
+    p1 -->|down_files| p7
+    p7 --> p8
+    p4 -->|qc| p9
+    p9 --> p10
+    p1 -->|down_files| p10
+    p4 -->|qc| p10
+    p10 --> p11
+    p4 -->|qc| p12
+    p9 -->|tree| p12
+    p1 -->|down_files| p12
+    p12 --> p13
+    p1 -->|down_files| p14
+    p4 -->|qc| p14
+    p14 --> p15
+    p4 -->|qc| p15
+    p1 -->|down_files| p15
+    p15 -->|abundance| p16

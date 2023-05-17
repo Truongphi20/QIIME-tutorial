@@ -1,0 +1,126 @@
+May-17 17:43:38.848 [main] DEBUG nextflow.cli.Launcher - $> nextflow run FMT.nf -resume
+May-17 17:43:39.041 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.1
+May-17 17:43:39.081 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.2
+May-17 17:43:39.102 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-17 17:43:39.103 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-17 17:43:39.107 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-17 17:43:39.123 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-17 17:43:39.269 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-17 17:43:39.299 [main] INFO  nextflow.cli.CmdRun - Launching `FMT.nf` [extravagant_agnesi] DSL2 - revision: 2d8e653c79
+May-17 17:43:39.301 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-17 17:43:39.301 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-17 17:43:39.314 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-17 17:43:39.327 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@69ce2f62] - activable => nextflow.secret.LocalSecretsProvider@69ce2f62
+May-17 17:43:39.411 [main] DEBUG nextflow.Session - Session UUID: 1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6
+May-17 17:43:39.411 [main] DEBUG nextflow.Session - Run name: extravagant_agnesi
+May-17 17:43:39.414 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-17 17:43:39.450 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-17 17:43:39.497 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.1 build 5866
+  Created: 15-04-2023 06:51 UTC (13:51 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 18+36-2087
+  Encoding: UTF-8 (UTF-8)
+  Process: 5182@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (3.4 GB) - Swap: 2 GB (2 GB)
+May-17 17:43:39.578 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/FMT/work [ext2/ext3]
+May-17 17:43:39.578 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/FMT/bin
+May-17 17:43:39.594 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-17 17:43:39.610 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-17 17:43:39.640 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-17 17:43:39.654 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-17 17:43:39.766 [main] DEBUG nextflow.Session - Session start
+May-17 17:43:41.075 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-17 17:43:41.204 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.204 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.213 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-17 17:43:41.224 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-17 17:43:41.402 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.402 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.410 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.410 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.418 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.418 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.423 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.424 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.432 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.433 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.441 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.442 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.448 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.448 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.454 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.454 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.460 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.460 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.465 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.466 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.473 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.474 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.481 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.481 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.487 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-17 17:43:41.487 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-17 17:43:41.492 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: RAREFACTION, FILTER, MERGE, PHYLOGENETIC, SEQ_QC, PAIRWISE_DIFF, PAIRWISE_DIST, DOWNLOAD, ALPHA, DENOISE, BETA, DENOISE_VIS, DIVERSITY, MERGE_VIS
+May-17 17:43:41.493 [main] DEBUG nextflow.Session - Igniting dataflow network (14)
+May-17 17:43:41.494 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNLOAD
+May-17 17:43:41.496 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SEQ_QC
+May-17 17:43:41.497 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DENOISE
+May-17 17:43:41.497 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DENOISE_VIS
+May-17 17:43:41.498 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MERGE
+May-17 17:43:41.498 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MERGE_VIS
+May-17 17:43:41.498 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FILTER
+May-17 17:43:41.499 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PHYLOGENETIC
+May-17 17:43:41.499 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DIVERSITY
+May-17 17:43:41.500 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ALPHA
+May-17 17:43:41.500 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BETA
+May-17 17:43:41.500 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > RAREFACTION
+May-17 17:43:41.500 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIFF
+May-17 17:43:41.501 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIST
+May-17 17:43:41.501 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-17 17:43:41.501 [main] DEBUG nextflow.Session - Session await
+May-17 17:43:41.817 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-17 17:43:41.820 [Task submitter] INFO  nextflow.Session - [7c/092442] Submitted process > DOWNLOAD
+May-17 17:46:36.784 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: DOWNLOAD; status: COMPLETED; exit: 0; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/FMT/work/7c/092442a0229571d0ae3060f651a62e]
+May-17 17:46:36.855 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-17 17:46:36.856 [Task submitter] INFO  nextflow.Session - [4c/738be0] Submitted process > DENOISE
+May-17 17:46:36.862 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-17 17:46:36.863 [Task submitter] INFO  nextflow.Session - [ec/c7ad25] Submitted process > SEQ_QC
+May-17 17:46:36.905 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: DENOISE; status: COMPLETED; exit: 127; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/FMT/work/4c/738be0ef3c8dbb194fe1230f3d7861]
+May-17 17:46:36.910 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=DENOISE; work-dir=/home/truongphi/Desktop/meta/QIIME/FMT/work/4c/738be0ef3c8dbb194fe1230f3d7861
+  error [nextflow.exception.ProcessFailedException]: Process `DENOISE` terminated with an error exit status (127)
+May-17 17:46:36.928 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'DENOISE'
+
+Caused by:
+  Process `DENOISE` terminated with an error exit status (127)
+
+Command executed:
+
+  qiime dada2 denoise-single 	  --p-trim-left 13 	  --p-trunc-len 150 	  --i-demultiplexed-seqs fmt-tutorial-demux-1-10p.qza 	  --o-representative-sequences rep-seqs-1.qza 	  --o-table table-1.qza 	  --o-denoising-stats stats-1.qza
+  
+  qiime dada2 denoise-single 	  --p-trim-left 13 	  --p-trunc-len 150 	  --i-demultiplexed-seqs fmt-tutorial-demux-2-10p.qza 	  --o-representative-sequences rep-seqs-2.qza 	  --o-table table-2.qza 	  --o-denoising-stats stats-2.qza
+
+Command exit status:
+  127
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 2: qiime: command not found
+
+Work dir:
+  /home/truongphi/Desktop/meta/QIIME/FMT/work/4c/738be0ef3c8dbb194fe1230f3d7861
+
+Tip: you can replicate the issue by changing to the process work dir and entering the command `bash .command.run`
+May-17 17:46:36.933 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `DENOISE` terminated with an error exit status (127)
+May-17 17:46:36.964 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-17 17:46:36.965 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-17 17:46:36.965 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: SEQ_QC; status: COMPLETED; exit: 127; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/FMT/work/ec/c7ad256b6d3209de143880906ce58c]
+May-17 17:46:36.966 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=SEQ_QC; work-dir=/home/truongphi/Desktop/meta/QIIME/FMT/work/ec/c7ad256b6d3209de143880906ce58c
+  error [nextflow.exception.ProcessFailedException]: Process `SEQ_QC` terminated with an error exit status (127)
+May-17 17:46:36.974 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=2; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=2m 55s; failedDuration=108ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=2; peakCpus=2; peakMemory=0; ]
+May-17 17:46:37.157 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-17 17:46:37.183 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

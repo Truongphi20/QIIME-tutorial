@@ -1,0 +1,103 @@
+May-16 07:33:48.693 [main] DEBUG nextflow.cli.Launcher - $> nextflow run FMT.nf -resume
+May-16 07:33:48.879 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.1
+May-16 07:33:48.918 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.2
+May-16 07:33:48.937 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-16 07:33:48.938 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-16 07:33:48.942 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-16 07:33:48.958 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-16 07:33:49.084 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-16 07:33:49.112 [main] INFO  nextflow.cli.CmdRun - Launching `FMT.nf` [zen_heisenberg] DSL2 - revision: 2d8e653c79
+May-16 07:33:49.113 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-16 07:33:49.113 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-16 07:33:49.125 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-16 07:33:49.134 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@69ce2f62] - activable => nextflow.secret.LocalSecretsProvider@69ce2f62
+May-16 07:33:49.235 [main] DEBUG nextflow.Session - Session UUID: 1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6
+May-16 07:33:49.235 [main] DEBUG nextflow.Session - Run name: zen_heisenberg
+May-16 07:33:49.237 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-16 07:33:49.257 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-16 07:33:49.305 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.1 build 5866
+  Created: 15-04-2023 06:51 UTC (13:51 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 18+36-2087
+  Encoding: UTF-8 (UTF-8)
+  Process: 5866@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (2.6 GB) - Swap: 2 GB (2 GB)
+May-16 07:33:49.379 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/FMT/work [ext2/ext3]
+May-16 07:33:49.379 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/FMT/bin
+May-16 07:33:49.397 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-16 07:33:49.414 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-16 07:33:49.441 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-16 07:33:49.456 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-16 07:33:49.580 [main] DEBUG nextflow.Session - Session start
+May-16 07:33:50.818 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-16 07:33:50.957 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:50.957 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:50.965 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-16 07:33:50.974 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-16 07:33:51.126 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.126 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.133 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.133 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.138 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.138 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.143 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.143 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.148 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.149 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.153 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.153 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.158 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.158 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.162 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.162 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.167 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.167 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.171 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.171 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.175 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.175 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.179 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.179 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.183 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-16 07:33:51.183 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-16 07:33:51.187 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: RAREFACTION, FILTER, MERGE, PHYLOGENETIC, SEQ_QC, PAIRWISE_DIFF, PAIRWISE_DIST, DOWNLOAD, ALPHA, DENOISE, BETA, DENOISE_VIS, DIVERSITY, MERGE_VIS
+May-16 07:33:51.187 [main] DEBUG nextflow.Session - Igniting dataflow network (14)
+May-16 07:33:51.188 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNLOAD
+May-16 07:33:51.189 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > SEQ_QC
+May-16 07:33:51.190 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DENOISE
+May-16 07:33:51.190 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DENOISE_VIS
+May-16 07:33:51.191 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MERGE
+May-16 07:33:51.191 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > MERGE_VIS
+May-16 07:33:51.192 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FILTER
+May-16 07:33:51.192 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PHYLOGENETIC
+May-16 07:33:51.192 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DIVERSITY
+May-16 07:33:51.193 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > ALPHA
+May-16 07:33:51.193 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > BETA
+May-16 07:33:51.193 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > RAREFACTION
+May-16 07:33:51.194 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIFF
+May-16 07:33:51.194 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIST
+May-16 07:33:51.195 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-16 07:33:51.195 [main] DEBUG nextflow.Session - Session await
+May-16 07:33:51.445 [Actor Thread 14] INFO  nextflow.processor.TaskProcessor - [7c/092442] Cached process > DOWNLOAD
+May-16 07:33:51.486 [Actor Thread 13] INFO  nextflow.processor.TaskProcessor - [ec/c7ad25] Cached process > SEQ_QC
+May-16 07:33:51.487 [Actor Thread 9] INFO  nextflow.processor.TaskProcessor - [4c/738be0] Cached process > DENOISE
+May-16 07:33:51.496 [Actor Thread 14] INFO  nextflow.processor.TaskProcessor - [85/fc3703] Cached process > MERGE
+May-16 07:33:51.496 [Actor Thread 7] INFO  nextflow.processor.TaskProcessor - [d0/5a6210] Cached process > DENOISE_VIS
+May-16 07:33:51.505 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [00/421044] Cached process > MERGE_VIS
+May-16 07:33:51.505 [Actor Thread 5] INFO  nextflow.processor.TaskProcessor - [f6/cf444e] Cached process > PHYLOGENETIC
+May-16 07:33:51.505 [Actor Thread 12] INFO  nextflow.processor.TaskProcessor - [0d/5f61f9] Cached process > FILTER
+May-16 07:33:51.515 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [14/30dc96] Cached process > RAREFACTION
+May-16 07:33:51.522 [Actor Thread 13] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'PublishDir' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-16 07:33:51.535 [Actor Thread 11] INFO  nextflow.processor.TaskProcessor - [22/4e3885] Cached process > DIVERSITY
+May-16 07:33:51.552 [Actor Thread 1] INFO  nextflow.processor.TaskProcessor - [3f/abed40] Cached process > PAIRWISE_DIFF
+May-16 07:33:51.552 [Actor Thread 8] INFO  nextflow.processor.TaskProcessor - [62/836386] Cached process > PAIRWISE_DIST
+May-16 07:33:51.555 [Actor Thread 3] INFO  nextflow.processor.TaskProcessor - [f2/d68689] Cached process > ALPHA
+May-16 07:33:51.555 [Actor Thread 16] INFO  nextflow.processor.TaskProcessor - [33/ea80f3] Cached process > BETA
+May-16 07:33:51.560 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-16 07:33:51.586 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-16 07:33:51.589 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'PublishDir' shutdown completed (hard=false)
+May-16 07:33:51.594 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=14; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=9m 13s;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+May-16 07:33:51.657 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-16 07:33:51.715 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+May-16 07:33:51.716 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

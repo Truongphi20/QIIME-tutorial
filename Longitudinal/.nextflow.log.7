@@ -1,0 +1,84 @@
+May-02 12:32:00.935 [main] DEBUG nextflow.cli.Launcher - $> nextflow run longitudinal.nf -resume
+May-02 12:32:01.013 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.1
+May-02 12:32:01.037 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.2
+May-02 12:32:01.054 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-02 12:32:01.055 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-02 12:32:01.058 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-02 12:32:01.075 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-02 12:32:01.184 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-02 12:32:01.206 [main] INFO  nextflow.cli.CmdRun - Launching `longitudinal.nf` [confident_lichterman] DSL2 - revision: 549b862675
+May-02 12:32:01.207 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-02 12:32:01.207 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-02 12:32:01.218 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-02 12:32:01.228 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@6331250e] - activable => nextflow.secret.LocalSecretsProvider@6331250e
+May-02 12:32:01.305 [main] DEBUG nextflow.Session - Session UUID: a6901570-fc42-4d15-b2c7-60c5c27b34be
+May-02 12:32:01.305 [main] DEBUG nextflow.Session - Run name: confident_lichterman
+May-02 12:32:01.307 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-02 12:32:01.321 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-02 12:32:01.353 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.1 build 5866
+  Created: 15-04-2023 06:51 UTC (13:51 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 18+36-2087
+  Encoding: UTF-8 (UTF-8)
+  Process: 4394@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (3.5 GB) - Swap: 2 GB (2 GB)
+May-02 12:32:01.405 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work [ext2/ext3]
+May-02 12:32:01.406 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/Longitudinal/bin
+May-02 12:32:01.420 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-02 12:32:01.436 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-02 12:32:01.462 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-02 12:32:01.473 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-02 12:32:01.585 [main] DEBUG nextflow.Session - Session start
+May-02 12:32:02.497 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-02 12:32:02.610 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:32:02.610 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:32:02.618 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-02 12:32:02.629 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-02 12:32:02.779 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-02 12:32:02.779 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-02 12:32:02.784 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: DOWNDATA, PAIRWISE_DIFF
+May-02 12:32:02.784 [main] DEBUG nextflow.Session - Igniting dataflow network (2)
+May-02 12:32:02.785 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > DOWNDATA
+May-02 12:32:02.786 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > PAIRWISE_DIFF
+May-02 12:32:02.787 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-02 12:32:02.787 [main] DEBUG nextflow.Session - Session await
+May-02 12:32:02.924 [Actor Thread 4] DEBUG nextflow.util.CacheHelper - Unable to get file attributes file: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles -- Cause: java.nio.file.NoSuchFileException: /home/truongphi/Desktop/meta/QIIME/Longitudinal/downfiles
+May-02 12:32:03.019 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-02 12:32:03.023 [Task submitter] INFO  nextflow.Session - [a6/d26965] Submitted process > DOWNDATA
+May-02 12:32:47.412 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: DOWNDATA; status: COMPLETED; exit: 0; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/a6/d269659116ecfca31dd703539d67ee]
+May-02 12:32:47.438 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-02 12:32:47.439 [Task submitter] INFO  nextflow.Session - [09/4d32b7] Submitted process > PAIRWISE_DIFF
+May-02 12:32:47.490 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 2; name: PAIRWISE_DIFF; status: COMPLETED; exit: 127; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/09/4d32b7b264a257e2749b26ef663ffe]
+May-02 12:32:47.495 [Task monitor] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=PAIRWISE_DIFF; work-dir=/home/truongphi/Desktop/meta/QIIME/Longitudinal/work/09/4d32b7b264a257e2749b26ef663ffe
+  error [nextflow.exception.ProcessFailedException]: Process `PAIRWISE_DIFF` terminated with an error exit status (127)
+May-02 12:32:47.516 [Task monitor] ERROR nextflow.processor.TaskProcessor - Error executing process > 'PAIRWISE_DIFF'
+
+Caused by:
+  Process `PAIRWISE_DIFF` terminated with an error exit status (127)
+
+Command executed:
+
+  mkdir diff diff/vis
+  qiime longitudinal pairwise-differences 	  --m-metadata-file download/Sample_metadata/ecam-sample-metadata.tsv 	  --m-metadata-file download/Importing_data/shannon.qza 	  --p-metric shannon 	  --p-group-column delivery 	  --p-state-column month 	  --p-state-1 0 	  --p-state-2 12 	  --p-individual-id-column studyid 	  --p-replicate-handling random 	  --o-visualization diff/pairwise-differences.qzv
+
+Command exit status:
+  127
+
+Command output:
+  (empty)
+
+Command error:
+  .command.sh: line 3: qiime: command not found
+
+Work dir:
+  /home/truongphi/Desktop/meta/QIIME/Longitudinal/work/09/4d32b7b264a257e2749b26ef663ffe
+
+Tip: view the complete command output by changing to the process work dir and entering the command `cat .command.out`
+May-02 12:32:47.521 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-02 12:32:47.522 [Task monitor] DEBUG nextflow.Session - Session aborted -- Cause: Process `PAIRWISE_DIFF` terminated with an error exit status (127)
+May-02 12:32:47.547 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-02 12:32:47.557 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=1; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=44.4s; failedDuration=25ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+May-02 12:32:47.760 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-02 12:32:47.774 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

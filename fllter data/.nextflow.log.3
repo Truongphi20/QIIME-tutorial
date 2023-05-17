@@ -1,0 +1,55 @@
+May-05 10:08:34.287 [main] DEBUG nextflow.cli.Launcher - $> nextflow run filter.nf
+May-05 10:08:34.380 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 22.10.6
+May-05 10:08:34.413 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/truongphi/.nextflow/plugins; core-plugins: nf-amazon@1.11.3,nf-azure@0.14.2,nf-codecommit@0.1.2,nf-console@1.0.4,nf-ga4gh@1.0.4,nf-google@1.4.5,nf-tower@1.5.6,nf-wave@0.5.3
+May-05 10:08:34.431 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+May-05 10:08:34.432 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+May-05 10:08:34.437 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+May-05 10:08:34.450 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+May-05 10:08:34.519 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+May-05 10:08:34.549 [main] INFO  nextflow.cli.CmdRun - Launching `filter.nf` [determined_carson] DSL2 - revision: 0c95ebc2be
+May-05 10:08:34.550 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+May-05 10:08:34.550 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+May-05 10:08:34.564 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/truongphi/.nextflow/secrets/store.json
+May-05 10:08:34.577 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@5ec77191] - activable => nextflow.secret.LocalSecretsProvider@5ec77191
+May-05 10:08:34.680 [main] DEBUG nextflow.Session - Session UUID: 4dc717fc-e09f-45a0-a81e-54efa2e05842
+May-05 10:08:34.680 [main] DEBUG nextflow.Session - Run name: determined_carson
+May-05 10:08:34.681 [main] DEBUG nextflow.Session - Executor pool size: 8
+May-05 10:08:34.697 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=24; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+May-05 10:08:34.747 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 22.10.6 build 5843
+  Created: 23-01-2023 23:20 UTC (24-01-2023 06:20 ICST)
+  System: Linux 5.19.0-41-generic
+  Runtime: Groovy 3.0.13 on OpenJDK 64-Bit Server VM 17.0.3-internal+0-adhoc..src
+  Encoding: UTF-8 (UTF-8)
+  Process: 4392@myLaptop [127.0.1.1]
+  CPUs: 8 - Mem: 7.6 GB (3.2 GB) - Swap: 2 GB (2 GB)
+May-05 10:08:34.791 [main] DEBUG nextflow.file.FileHelper - Can't check if specified path is NFS (1): /home/truongphi/Desktop/meta/QIIME/fllter data/work
+
+May-05 10:08:34.791 [main] DEBUG nextflow.Session - Work-dir: /home/truongphi/Desktop/meta/QIIME/fllter data/work [null]
+May-05 10:08:34.792 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /home/truongphi/Desktop/meta/QIIME/fllter data/bin
+May-05 10:08:34.808 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+May-05 10:08:34.826 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+May-05 10:08:34.864 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+May-05 10:08:34.882 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 9; maxThreads: 1000
+May-05 10:08:34.993 [main] DEBUG nextflow.Session - Session start
+May-05 10:08:35.809 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+May-05 10:08:35.887 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+May-05 10:08:35.887 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+May-05 10:08:35.896 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+May-05 10:08:35.904 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=8; memory=7.6 GB; capacity=8; pollInterval=100ms; dumpInterval=5m
+May-05 10:08:36.082 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: FREQUENCY_FILTERING
+May-05 10:08:36.083 [main] DEBUG nextflow.Session - Igniting dataflow network (1)
+May-05 10:08:36.083 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > FREQUENCY_FILTERING
+May-05 10:08:36.084 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+May-05 10:08:36.084 [main] DEBUG nextflow.Session - Session await
+May-05 10:08:38.738 [FileTransfer-1] DEBUG nextflow.file.FilePorter - Copying foreign file https://data.qiime2.org/2023.2/tutorials/filtering/table.qza to work dir: /home/truongphi/Desktop/meta/QIIME/fllter data/work/stage-4dc717fc-e09f-45a0-a81e-54efa2e05842/8d/6698f6d33f11d639c100ab0aa0152c/table.qza
+May-05 10:08:40.738 [Actor Thread 3] INFO  nextflow.file.FilePorter - Staging foreign file: https://data.qiime2.org/2023.2/tutorials/filtering/table.qza
+May-05 10:08:43.531 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+May-05 10:08:43.535 [Task submitter] INFO  nextflow.Session - [38/d0ea22] Submitted process > FREQUENCY_FILTERING
+May-05 10:08:58.188 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: FREQUENCY_FILTERING; status: COMPLETED; exit: 0; error: -; workDir: /home/truongphi/Desktop/meta/QIIME/fllter data/work/38/d0ea22912c063c4b455a989601c886]
+May-05 10:08:58.197 [main] DEBUG nextflow.Session - Session await > all processes finished
+May-05 10:08:58.198 [main] DEBUG nextflow.Session - Session await > all barriers passed
+May-05 10:08:58.211 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=14.6s; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=1; peakCpus=1; peakMemory=0; ]
+May-05 10:08:58.298 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+May-05 10:08:58.319 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+May-05 10:08:58.319 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

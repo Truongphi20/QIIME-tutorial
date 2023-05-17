@@ -1,0 +1,140 @@
+2023-05-02 07:54:33	2m 36s	ecstatic_watson	OK	8e196870dc3c05906e1f536e83f135bd	46057b9b-301d-4b0c-a9b7-b8a7cc6284bc	nextflow run FMT.nf
+2023-05-02 08:03:15	-	elegant_boyd	-	9d7da2447ec746bffe7f828e760f2753	46057b9b-301d-4b0c-a9b7-b8a7cc6284bc	nextflow run FMT.nf -resume
+2023-05-02 08:03:29	-	irreverent_cray	-	15dd1380df9063807e46f31c614f17b4	46057b9b-301d-4b0c-a9b7-b8a7cc6284bc	nextflow run FMT.nf -resume
+2023-05-02 08:06:35	-	evil_aryabhata	-	6db0fb1f3add32f209cf1ac4582a3534	46057b9b-301d-4b0c-a9b7-b8a7cc6284bc	nextflow run FMT.nf -resume
+2023-05-02 08:08:18	-	deadly_hugle	-	b7833d240369e5e27910d0226f23a4b8	46057b9b-301d-4b0c-a9b7-b8a7cc6284bc	nextflow run FMT.nf -resume
+2023-05-02 08:09:02	-	festering_hilbert	-	b7833d240369e5e27910d0226f23a4b8	46057b9b-301d-4b0c-a9b7-b8a7cc6284bc	nextflow run FMT.nf -resume
+2023-05-02 08:09:19	2h 46m 15s	reverent_fermat	ERR	917170b3fdcbfd672b8376804fcd20f1	46057b9b-301d-4b0c-a9b7-b8a7cc6284bc	nextflow run FMT.nf -resume
+2023-05-02 08:11:27	2m 55s	loving_dalembert	ERR	917170b3fdcbfd672b8376804fcd20f1	2f41757d-2aac-4552-a5b0-a0aac7c5de92	nextflow run FMT.nf
+2023-05-02 08:18:43	-	sleepy_jepsen	-	236bf9bb74c87abd09cb24431e462dde	bda7ef52-fa06-4ddd-9c35-0571d6d4d941	nextflow run FMT.nf
+2023-05-02 08:19:05	3m 5s	agitated_goldwasser	OK	236bf9bb74c87abd09cb24431e462dde	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf
+2023-05-02 08:25:00	2m 44s	desperate_ekeblad	OK	f52a245fbbfedb23792d49915ae433de	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 08:39:14	9.9s	big_bose	ERR	b150feb98998abf56ecbbb9664981b33	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 08:59:42	21.8s	modest_boyd	ERR	5713834f4bc5246b3c4e109a7be06a03	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 09:00:35	10s	nostalgic_carlsson	OK	03f1c762bceea3fe62ecc342ef83a916	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 09:05:48	2m 40s	silly_celsius	ERR	1c1949b88711aaa1c0377895266c4078	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 09:10:09	-	sleepy_goodall	-	c6b5b3fd4c14339a2ac15cce11421755	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 09:12:26	32.8s	big_lamarr	OK	a2ca1a53b86b5e30796137020f27cb94	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 09:14:38	-	tiny_hugle	-	c6b5b3fd4c14339a2ac15cce11421755	d0b83b5b-fbae-4e7c-97bc-536d01639904	nextflow run FMT.nf -resume
+2023-05-02 09:14:47	-	nasty_bell	-	c6b5b3fd4c14339a2ac15cce11421755	4cb05ccf-2575-4125-aae2-5faacd013032	nextflow run FMT.nf
+2023-05-02 09:15:52	1h 39m 42s	cranky_church	ERR	8efcb9303510b513f44910e1cd88c0a3	3ab42d99-7335-4157-8eda-bec993382d21	nextflow run FMT.nf
+2023-05-02 09:19:02	7m 7s	serene_panini	OK	8efcb9303510b513f44910e1cd88c0a3	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -with-report report.html -with-timeline timeline.html -with-dag flowchart.png
+2023-05-02 16:06:39	-	desperate_yonath	-	188cb0eab5c63f6a04ecb65c8d26969e	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-02 16:07:05	2.4s	nauseous_aryabhata	ERR	188cb0eab5c63f6a04ecb65c8d26969e	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-02 16:07:46	-	intergalactic_knuth	-	188cb0eab5c63f6a04ecb65c8d26969e	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-02 16:08:00	3m 20s	cranky_ride	OK	188cb0eab5c63f6a04ecb65c8d26969e	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-02 16:12:58	33.7s	focused_tesla	ERR	61461fc2d3b9de0f76b5a2d43e71047f	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-02 16:24:55	25.2s	suspicious_noether	OK	9236eaab3f04895535676ef89bdbfc8d	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-02 16:42:54	42s	festering_visvesvaraya	OK	a6a42e7f96a7a9cf4e7a5e4f8fe7c68c	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-03 09:00:36	2.9s	amazing_meucci	ERR	ecba1610adff5ac7b86a55b8f00a5496	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 09:01:22	10.8s	nostalgic_albattani	ERR	ecba1610adff5ac7b86a55b8f00a5496	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 09:03:01	11s	amazing_jang	ERR	7f7de2f4d8d189a70bb0db5be13cb6d0	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 10:18:33	18.9s	friendly_borg	ERR	bb30d3f22a84d490a0d4273c1ea43a65	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 10:20:44	1m 18s	nauseous_woese	ERR	baa0f97f9b3b9abc2d998b3545b996a2	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 10:27:13	17.9s	goofy_tuckerman	ERR	bf4ce759aa588ee66b8c037cca66413f	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 15:31:21	3s	ecstatic_meninsky	ERR	baa0f97f9b3b9abc2d998b3545b996a2	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 15:32:02	38.6s	berserk_solvay	ERR	baa0f97f9b3b9abc2d998b3545b996a2	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 15:44:58	9.5s	elated_pike	ERR	bf4ce759aa588ee66b8c037cca66413f	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 15:57:01	8.7s	condescending_linnaeus	ERR	c79b2ab9f118d79529f5d4f852993e82	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 16:05:24	9.1s	friendly_feynman	ERR	83ac4521d2a0d041794838cfb042a3c2	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 16:09:41	9.6s	boring_avogadro	ERR	f730cba80300922fefa866e2cab87e4d	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 18:53:04	10.7s	lethal_heisenberg	ERR	18759be0c037b68ddf89fc521f4cc190	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 18:54:02	11.6s	fervent_blackwell	ERR	f557381763728ddca72a008bd6146bcb	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 18:56:49	9.3s	compassionate_celsius	ERR	18759be0c037b68ddf89fc521f4cc190	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 18:58:45	9.3s	silly_blackwell	ERR	bc2d8b158aa236f26c2d3093c1fbe938	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 20:29:59	9.5s	golden_edison	OK	d8469478e0ba62fb3553e4d43dde8989	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 20:45:54	3m 47s	lethal_coulomb	OK	b347b8a4bce76b4fca0786046768bb4a	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume --with-dag ha.png
+2023-05-03 20:51:54	2.3s	ridiculous_tuckerman	OK	b347b8a4bce76b4fca0786046768bb4a	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-03 20:58:09	9s	drunk_jang	ERR	4fa94f115856d342759a47ab4f5b4cef	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-03 21:01:53	12.9s	voluminous_pauling	ERR	f22cdd3cb426a6ab588be1d217442b56	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume -with-dag flowchart.png -with-timeline time.html -with-report report.html
+2023-05-03 21:04:17	-	insane_yonath	-	e79cfb84f800d66131d4f09b2a4edf87	432e7747-cc65-40de-ac17-c1d261f5aecd	nextflow run FMT.nf -resume
+2023-05-03 21:04:31	-	hungry_solvay	-	e79cfb84f800d66131d4f09b2a4edf87	80ef291d-b61d-4353-a4d4-3ea9f126a991	nextflow run FMT.nf -with-dag flowchart.png -with-timeline time.html -with-report report.html
+2023-05-03 21:04:54	-	cheeky_pesquet	-	e79cfb84f800d66131d4f09b2a4edf87	4365abc7-e86d-4978-b5f5-dc05851f79da	nextflow run FMT.nf -with-dag flowchart.png -with-timeline time.html -with-report report.html
+2023-05-03 21:06:00	7m 45s	thirsty_lamarr	ERR	50429fea84b00090292ccfbb6f2d6e7b	57e00fd2-952b-471d-928a-e286f68451c4	nextflow run FMT.nf -with-dag flowchart.png -with-timeline time.html -with-report report.html
+2023-05-03 21:15:55	45.4s	dreamy_colden	OK	f75d5b445d8eaacb9161f0dbd50f651c	57e00fd2-952b-471d-928a-e286f68451c4	nextflow run FMT.nf -resume -with-dag flowchart.png
+2023-05-05 07:55:28	-	magical_engelbart	-	0d16bce6a2398a86dd9eba34b14fda8e	ec06256f-02f8-47a6-8614-3c25aa576496	nextflow run FMT.nf
+2023-05-05 07:56:09	2.1s	modest_hopper	ERR	10326c87f551d607db192273ba479ee5	23043715-5888-43f0-a5a1-c55d8378310c	nextflow run FMT.nf
+2023-05-05 07:57:03	1.9s	sleepy_lalande	ERR	10326c87f551d607db192273ba479ee5	d5947a83-69cb-47f6-afa7-053d095ffb51	nextflow run FMT.nf
+2023-05-05 07:58:50	-	elated_curran	-	3db33ab36d9f9395c46978e7e306912f	686adda0-b1c5-4c64-8799-b783b80cdd87	nextflow run FMT.nf
+2023-05-05 07:59:07	2m 15s	high_becquerel	ERR	d702bd1019a1a0abb49b2e7eb1ac4caa	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf
+2023-05-05 08:04:19	2m 26s	evil_planck	ERR	1a6f009a158ecec3ea510114e12ab170	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume
+2023-05-05 08:16:36	2m 19s	nauseous_payne	OK	0c36cc34a8940aff8f3daf8cba17efa5	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume
+2023-05-05 08:21:44	2.2s	angry_saha	OK	3f5bb42cfcb21aeb0dbee718a32cf8d8	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume
+2023-05-05 08:30:55	2.6s	thirsty_goodall	ERR	c6b7c733d6fd1e14e7c84b7c8fdc1a36	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume
+2023-05-05 08:31:40	11.3s	elegant_jang	ERR	c6b7c733d6fd1e14e7c84b7c8fdc1a36	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume
+2023-05-05 08:32:27	40.2s	tiny_ride	OK	8790289a18a65b49ea08f73e47456a70	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume
+2023-05-05 08:34:08	2.6s	backstabbing_nobel	OK	8790289a18a65b49ea08f73e47456a70	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume -with-dag flow.pnj
+2023-05-05 08:34:22	2.7s	compassionate_magritte	OK	8790289a18a65b49ea08f73e47456a70	ed1dfcb4-9712-48c5-ac10-0c0f6cc86f9e	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 10:36:27	2m 21s	backstabbing_moriondo	ERR	9b1af0f73d2809de58d48c82c34ce314	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf
+2023-05-05 10:41:41	3m	admiring_heisenberg	OK	3b77b225943a6e1ddea224b9c2a223a4	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 10:45:53	3m 9s	serene_kowalevski	OK	c7d1acdc7ae871710e900eef4d789a4e	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 10:49:49	32.9s	furious_miescher	OK	d684770e51b757d1ff235afb2bf53e1e	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 10:54:05	35s	big_hopper	OK	11b62a919c5b33977a28e39f109eb910	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 10:55:28	40.1s	thirsty_thompson	OK	adefc9c9691c45e6216b4e96d15b9291	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 10:57:21	43.2s	small_northcutt	OK	6ae52e1eaa1046f1fa5baf28ad751bb5	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 10:59:06	49.6s	infallible_avogadro	OK	77e6595e5bed27fceb92a61c0add961c	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 11:00:30	53.5s	sick_bell	OK	2b5bac459667eb736f38d20ddd9b170c	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume
+2023-05-05 11:01:56	1m 3s	silly_koch	OK	04503b24203a19e52aea044c92650bf5	1f1e5a86-0b16-418b-a91e-a1522bd9e484	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 11:07:05	6m 25s	sad_lichterman	OK	f17a269790b1e6e674d88091b6dd51ee	5b186bfc-7af5-49ef-9e3c-98a74b22f3e8	nextflow run FMT.nf -with-dag flow.png
+2023-05-05 11:14:36	6m 16s	reverent_marconi	OK	f17a269790b1e6e674d88091b6dd51ee	c436cc4b-1197-4265-8e74-998e9b3f8155	nextflow run FMT.nf -with-dag flow.png
+2023-05-05 11:28:54	-	stoic_goldwasser	-	02dda049e79755e8d61f416dfb4f8dc7	6e118d80-bf65-4dfa-8be6-fafe507d9b5f	nextflow run FMT.nf -with-dag flow.png
+2023-05-05 11:29:05	-	agitated_mirzakhani	-	02dda049e79755e8d61f416dfb4f8dc7	7f53126b-9388-4813-a959-68b5c8731f68	nextflow run FMT.nf -with-dag flow.png
+2023-05-05 11:29:30	-	magical_swartz	-	f507de82f86159b4ca1856cdc576f50b	d20232d5-2388-4a9a-b4f1-584aae17552b	nextflow run FMT.nf -with-dag flow.png
+2023-05-05 11:29:55	7m 40s	focused_bernard	OK	df60ab6f4600a1cf9ec52a06e4e5d377	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -with-dag flow.png
+2023-05-05 12:45:27	9.6s	prickly_nobel	OK	b553b3f5e0e981db0f81befc45833cce	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 12:59:28	17.9s	evil_leavitt	OK	ad10d954fb7547355e783a14fc491a39	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:13:41	3.4s	soggy_einstein	OK	b7cf180a8799a0287c5b081372323482	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:15:51	18.5s	mighty_kirch	ERR	b48b9732543ddc08ee280dd7661f2c7a	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:17:15	-	pedantic_thompson	-	0e5b2eec9efa3b859065f9e1cbc0e4ab	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:17:51	33.9s	exotic_gilbert	ERR	bf70e7b654229530bf3a941c5c43ab0f	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:22:26	35.6s	goofy_kowalevski	ERR	bf70e7b654229530bf3a941c5c43ab0f	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:24:08	35.3s	pedantic_carlsson	ERR	697501618e80615b2c49d6b3b2bc597c	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:29:28	3.8s	clever_wing	OK	492938f7b96d7ca71cb19bf908a7594e	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:31:46	3.4s	astonishing_pare	OK	d8b30430d0cc55cf3448b89a53a9a6f6	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:41:26	17.8s	backstabbing_dalembert	ERR	1b321350c47be64f80f6c28e5fcf0af1	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:42:07	47.1s	shrivelled_woese	OK	78727eb7a00f3b16392db1e514348a39	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume
+2023-05-05 13:44:35	4.1s	special_minsky	OK	78727eb7a00f3b16392db1e514348a39	2ee59cad-3b47-4db1-904e-9377f878244c	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 15:52:47	-	cheesy_mcclintock	-	439cc8ba1129af46fd2281245d097b2e	d143667b-40f7-44ed-9419-65bd7bf0ab95	nextflow run FMT.nf
+2023-05-05 15:53:07	14m 57s	elegant_caravaggio	ERR	ecfbb8ab0aebd3a77db9858a070bf4f5	10a667b6-d234-498f-8d81-918791b3e8bb	nextflow run FMT.nf
+2023-05-05 15:53:47	6m 12s	lonely_carlsson	OK	ecfbb8ab0aebd3a77db9858a070bf4f5	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf
+2023-05-05 16:02:30	3.1s	chaotic_raman	OK	1767507aebd07568b1ae1008f5d5aa70	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 16:02:54	2.6s	suspicious_aryabhata	OK	1767507aebd07568b1ae1008f5d5aa70	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 16:03:31	2.8s	lonely_elion	OK	b896b4217882720c55075b76048c83a3	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 16:35:22	3s	gigantic_carson	OK	2c126ef6a5454ed4e462495f65326506	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 16:36:21	2.1s	berserk_roentgen	OK	ce36a835e19820342a3e530c44519a90	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 16:37:26	2.9s	distraught_visvesvaraya	OK	ce36a835e19820342a3e530c44519a90	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 16:38:05	2.3s	awesome_planck	OK	2c210c8c4bb282787a4e7ebbfafab5ef	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 17:59:50	2.4s	intergalactic_mirzakhani	OK	14f6e3972777aef06a315c914bcac832	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:07:34	2.9s	extravagant_bernard	OK	6510786c94013e6c4a5080ef81361207	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:08:32	2.4s	nostalgic_rosalind	OK	e2fbf6392f5bd2909b3db0e374ded078	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:09:23	3.1s	loving_faraday	OK	285d28f11b3b9facbebceeb18f61ea88	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:09:41	2.6s	happy_allen	OK	285d28f11b3b9facbebceeb18f61ea88	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:10:28	2.3s	insane_bardeen	OK	e2fbf6392f5bd2909b3db0e374ded078	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:10:45	2.1s	silly_gauss	OK	e2fbf6392f5bd2909b3db0e374ded078	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:50:57	3s	ecstatic_colden	OK	cba953f9db629fa5b1667c5cb68f1737	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:52:24	10.7s	grave_avogadro	ERR	4478ed1d8a9dca47ff62231b360f3526	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:54:35	3.3s	elegant_kilby	ERR	3bbca504ae0053b0f26e8fcb26ddab32	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:55:00	8.7s	fabulous_engelbart	ERR	9bf367a5192d8c1333fc846173ed2ef3	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:57:17	16.8s	cheeky_kowalevski	OK	a0e42889b39c8cac06e98a348746af3d	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 18:59:10	2.6s	gloomy_cray	OK	a0e42889b39c8cac06e98a348746af3d	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 20:50:32	-	happy_wing	-	67f7c4a6e2156e351be1c93f019382cf	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 20:50:39	19.5s	distraught_kalman	OK	67f7c4a6e2156e351be1c93f019382cf	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 20:58:04	3s	gigantic_rosalind	OK	f14a1aefe94f5f54ca5886531999a7a4	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 21:03:31	-	intergalactic_wilson	-	cff795bbe1eee688311ef649764443a5	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 21:03:58	47.5s	shrivelled_carlsson	OK	cff795bbe1eee688311ef649764443a5	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 21:23:51	39.4s	jovial_lumiere	OK	12f24b3b4df23a1e97c0c231a1591cf7	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 21:40:15	-	silly_hugle	-	013ee3aa8f2702bc72a8c08a33864577	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 21:40:22	9.4s	disturbed_pauling	ERR	013ee3aa8f2702bc72a8c08a33864577	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 21:41:10	37.2s	furious_minsky	OK	e3ce723e350643db40f878db501e2473	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 21:43:10	37.9s	fabulous_boyd	OK	d49f1cec0dabe4194d096994f23fb875	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 21:47:28	37s	trusting_bernard	OK	c3734b773f1256f12080f87fc0d63ae4	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 21:59:27	-	angry_meucci	-	9e726502180333a18b7756ac077d98b1	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 21:59:44	-	romantic_mcclintock	-	ee6e96243e0080f24c0ab3a2bf9f93d7	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 22:01:39	42s	peaceful_poincare	OK	8d691b8e84f84c8661f7593fdcd886f8	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-05 22:03:11	-	serene_meitner	-	91b1693289f88f4980cce99a6363923e	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 22:03:20	40.4s	disturbed_swanson	OK	91b1693289f88f4980cce99a6363923e	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-05 22:06:43	3.2s	fervent_shaw	OK	2d8e653c7908dfcb47ed494210df5f97	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume -with-dag flow.png
+2023-05-15 06:58:57	3.3s	lonely_davinci	OK	2d8e653c7908dfcb47ed494210df5f97	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-16 07:33:49	2.7s	zen_heisenberg	OK	2d8e653c7908dfcb47ed494210df5f97	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-17 17:42:41	3s	lonely_rubens	OK	2d8e653c7908dfcb47ed494210df5f97	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
+2023-05-17 17:43:39	2m 58s	extravagant_agnesi	ERR	2d8e653c7908dfcb47ed494210df5f97	1c4da8bd-cfb4-4fa2-a474-7dde3ddbc0e6	nextflow run FMT.nf -resume
