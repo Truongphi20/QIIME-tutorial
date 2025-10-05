@@ -1,0 +1,9 @@
+bash/
+python/
+python/data_to_import.zip
+bash/data_to_import.zip
+bash/demultiplexed-sequences.qza
+Moving_Pictures/work.zip
+.nextflow/
+.nextflow.log*
+work
